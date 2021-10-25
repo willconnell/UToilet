@@ -10,8 +10,8 @@ import AVFoundation
 
 class AudioViewController: UIViewController {
 
+    
     @IBOutlet weak var playButton: UIButton!
-    @IBOutlet weak var audioSlider: UISlider!
     
     var player: AVAudioPlayer?
     
@@ -20,7 +20,6 @@ class AudioViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
     @IBAction func playButtonPushed(_ sender: Any) {
         if let player = player, player.isPlaying {
             // stop playback
@@ -49,14 +48,6 @@ class AudioViewController: UIViewController {
             }
         }
     }
-    
-    @IBAction func changeAudio(_ sender: Any) {
-        player?.stop()
-        player?.currentTime = TimeInterval(audioSlider.value)
-        player?.prepareToPlay()
-        player?.play()
-    }
-    
     
 }
 

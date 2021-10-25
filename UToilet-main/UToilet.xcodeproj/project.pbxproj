@@ -18,6 +18,7 @@
 		12A93B2B2727155F00354E20 /* UToiletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A93B2A2727155F00354E20 /* UToiletUITests.swift */; };
 		12A93B2D2727155F00354E20 /* UToiletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A93B2C2727155F00354E20 /* UToiletUITestsLaunchTests.swift */; };
 		E4E1C82B27275935004D14F9 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1C82A27275935004D14F9 /* AudioViewController.swift */; };
+		E4E1C82D27275C9A004D14F9 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4E1C82C27275C9A004D14F9 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		12A93B2A2727155F00354E20 /* UToiletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UToiletUITests.swift; sourceTree = "<group>"; };
 		12A93B2C2727155F00354E20 /* UToiletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UToiletUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E4E1C82A27275935004D14F9 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		E4E1C82C27275C9A004D14F9 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio.mp3; path = ../../../Downloads/audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				12A93B0C2727155E00354E20 /* Main.storyboard */,
 				E4E1C82A27275935004D14F9 /* AudioViewController.swift */,
 				12A93B122727155F00354E20 /* Assets.xcassets */,
+				E4E1C82C27275C9A004D14F9 /* audio.mp3 */,
 				12A93B142727155F00354E20 /* LaunchScreen.storyboard */,
 				12A93B172727155F00354E20 /* Info.plist */,
 				12A93B0F2727155E00354E20 /* UToilet.xcdatamodeld */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A93B162727155F00354E20 /* LaunchScreen.storyboard in Resources */,
+				E4E1C82D27275C9A004D14F9 /* audio.mp3 in Resources */,
 				12A93B132727155F00354E20 /* Assets.xcassets in Resources */,
 				12A93B0E2727155E00354E20 /* Main.storyboard in Resources */,
 			);
