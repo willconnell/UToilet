@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12256138274565D2007D3897 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12256137274565D2007D3897 /* MapViewController.swift */; };
 		12A93B072727155E00354E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A93B062727155E00354E20 /* AppDelegate.swift */; };
 		12A93B092727155E00354E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A93B082727155E00354E20 /* SceneDelegate.swift */; };
 		12A93B0B2727155E00354E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A93B0A2727155E00354E20 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12256137274565D2007D3897 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		12A93B032727155E00354E20 /* UToilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UToilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A93B062727155E00354E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A93B082727155E00354E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				12A93B082727155E00354E20 /* SceneDelegate.swift */,
 				12A93B0A2727155E00354E20 /* ViewController.swift */,
 				12A93B0C2727155E00354E20 /* Main.storyboard */,
+				12256137274565D2007D3897 /* MapViewController.swift */,
 				12A93B122727155F00354E20 /* Assets.xcassets */,
 				12A93B142727155F00354E20 /* LaunchScreen.storyboard */,
 				12A93B172727155F00354E20 /* Info.plist */,
@@ -264,6 +267,7 @@
 				12A93B0B2727155E00354E20 /* ViewController.swift in Sources */,
 				12A93B072727155E00354E20 /* AppDelegate.swift in Sources */,
 				12A93B112727155E00354E20 /* UToilet.xcdatamodeld in Sources */,
+				12256138274565D2007D3897 /* MapViewController.swift in Sources */,
 				12A93B092727155E00354E20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
